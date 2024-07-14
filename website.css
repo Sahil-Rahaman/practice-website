@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:url("img.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.nav_creation{
+    font-family: Arial, Helvetica, sans-serif;
+    height:80px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 35px;
+    color: #ff7200;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: 700;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.navigation_bar a{
+   
+    font-weight: 700;
+    margin: 46px;
+    text-decoration: none;
+    color: white; font-size: 14px;
+    transition:ease 0.3s;
+
+}
+.navigation_bar a:hover{
+    color: #ff7200;
+}
+.navigation_bar{
+    padding-top: 24px;
+}
+.search_bar input{
+    width: 200px;
+    border: 1px solid #ff7200;
+    padding: 10px;
+    border-radius: 2px;
+}
+.search_button{
+    margin-left: -4px;
+    padding: 10px;
+    width: 100px;
+    background-color: #ff7200;
+    color: white;
+    border-radius: 2px 5px 5px 2px;
+}
+.search_bar{
+    padding-top: 17px;
+}
+
+/* website content starts from here */
+
+.main_content{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 122px;
+}
+
+.information{
+    font-family: 'Times New Roman', Times, serif; 
+    color:white;
+}
+
+h1{
+    font-size: 50px;
+}
+.colorit{
+    color: #ff7200
+}
+
+p{
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.join{
+    width: 127px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    padding-top: 3px;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+.join:hover{
+    background-color: white;
+}
+
+.login_container{
+    width: 250px;
+    height: 380px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.login_here{
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.email input{
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.password input{
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.login{
+    width:100%;
+    height: 35px;
+    margin-top: 30px;
+    border: 2px solid #ff7200;
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #ff7200;
+    transition: ease 0.3s;
+    cursor: pointer;
+
+}
+.login:hover{
+    background-color: #fff;
+}
+
+.no_account{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.sign_up{
+    color:white;
+    text-align:center;
+
+}
+.sign_up a{
+    text-decoration: none;
+    color:#ff7200;
+}
+
+.login_with{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.icons i{
+    color: #fff;
+    font-size: 30px;
+    transition: ease 0.3s;
+    
+}
+.icons i:hover{
+    color:#ff7200;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+
+
+
